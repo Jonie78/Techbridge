@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #2ecc71;
+    animation: moveAndScale 3s ease-in-out infinite;
+}
+
+@keyframes moveAndScale {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+    50% {
+        transform: translateX(200px) scale(1.5);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+}
+
+.box:hover {
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    transition-duration: 1s
+}

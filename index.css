@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 32px;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    color: rgb(218, 129, 13);
+    margin-top: 0px;
+}
+
+.about {
+    text-decoration: solid;
+    text-transform: capitalize;
+    text-align: justify;
+    padding-left: 5% ;
+}
+
+.form {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 80px;
+    padding-bottom: 24px;
+    border: 2px solid rgb(218, 129, 13);
+}
